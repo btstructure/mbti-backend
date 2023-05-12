@@ -4,8 +4,8 @@ const server2 = jsonServer.create();
 const router1 = jsonServer.router("mbti-personality.json");
 const router2 = jsonServer.router("questions.json");
 const middlewares = jsonServer.defaults();
-const port1 = process.env.PORT || 3001;
-const port2 = process.env.PORT || 3002;
+const port1 = process.env.PORT_1 || 3001;
+const port2 = process.env.PORT_2 || 3002;
 
 server1.use(middlewares);
 server1.use(router1);
