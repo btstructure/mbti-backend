@@ -8,13 +8,13 @@ const port1 = process.env.PORT_1 || 3001;
 const port2 = process.env.PORT_2 || 3002;
 
 server1.use(middlewares);
-server1.use(router1);
-server1.listen("/personality", port1, () => {
+server1.use("/personality", router1);
+server1.listen(port1, () => {
   console.log(`Server 1 is running on port ${port1}`);
 });
 
 server2.use(middlewares);
-server2.use(router2);
-server2.listen("/questions", port2, () => {
+server2.use("/questions", router2);
+server2.listen(port2, () => {
   console.log(`Server 2 is running on port ${port2}`);
 });
