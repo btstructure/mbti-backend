@@ -113,5 +113,329 @@
             "description": "Frank, decisive, assume leadership readily. Quickly see illogical and inefficient procedures and policies, develop and implement comprehensive systems to solve organizational problems. Enjoy long-term planning and goal setting. Usually well informed, well read, enjoy expanding their knowledge and passing it on to others. Forceful in presenting their ideas."
         }
 
-    ]
+    ],
+    "questions": [
+        {
+          "id": 1,
+          "question": "Do you prefer to work in a team or alone?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Team",
+              "value" : "E"
+            },
+            {
+              "id": 2,
+              "answer": "Alone",
+              "value" : "I"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Do you like being the center of attention?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Yes",
+              "value" : "E"
+            },
+            {
+              "id": 2,
+              "answer": "No",
+              "value" : "I"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Would you rather spend your weekends attending social events or relaxing at home?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Social events",
+              "value" : "E"
+            },
+            {
+              "id": 2,
+              "answer": "Relaxing at home",
+              "value" : "I"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Do you find yourself exhausted after a social event?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Yes",
+              "value" : "I"
+            },
+            {
+              "id": 2,
+              "answer": "No",
+              "value" : "E"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Do you have a small social circle?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Yes",
+              "value" : "I"
+    
+            },
+            {
+              "id": 2,
+              "answer": "No",
+              "value" : "E"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "question": "Are you a literal person or do you consider yourself metaphorical?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Metaphorical",
+              "value": "N"
+            },
+            {
+              "id": 2,
+              "answer": "Literal",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Do you live in the past and present or in the future",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Future",
+              "value": "N"
+            },
+            {
+              "id": 2,
+              "answer": "Pass/Present",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "question": "Would you consider yourself a traditional person?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "No",
+              "value": "N"
+            },
+            {
+              "id": 2,
+              "answer": "Yes",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "question": "Would you say you are more imaginative or obervant?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Imaginative",
+              "value": "N"
+            },
+            {
+              "id": 2,
+              "answer": "Observamt",
+              "value": "S"
+            }
+          ]
+        }
+        ,{
+          "id": 10,
+          "question": "Do you prefer tangible information or are you more speculative?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Speculative",
+              "value": "N"
+            },
+            {
+              "id": 2,
+              "answer": "Tangible Information",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "question": "Do you follow your brain or follow your heart?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Brain",
+              "value": "T"
+            },
+            {
+              "id": 2,
+              "answer": "Heart",
+              "value": "F"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "question": "When dealing with someones feelings, do you tell them the truth or are more tactful when confronting them? ",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Telling the truth",
+              "value": "T"
+            },
+            {
+              "id": 2,
+              "answer": "Being tactful",
+              "value": "F"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "question": "When doing your job do you think `How does this help?` or `Who does this help?`?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "How does this help?",
+              "value": "T"
+            },
+            {
+              "id": 2,
+              "answer": "Who does this help?",
+              "value": "F"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "question": "Do you have a objective or subjective attitude?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Objective",
+              "value": "T"
+            },
+            {
+              "id": 2,
+              "answer": "Subjective",
+              "value": "F"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "question": "When making a decision do you get a second opinion?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "No",
+              "value": "T"
+            },
+            {
+              "id": 2,
+              "answer": "Yes",
+              "value": "F"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "question": "Do you tend to make spontaneous decisions?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "No",
+              "value": "J"
+            },
+            {
+              "id": 2,
+              "answer": "Yes",
+              "value": "P"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "question": "Do you tend to start one project and move on to another?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "No",
+              "value": "J"
+            },
+            {
+              "id": 2,
+              "answer": "Yes",
+              "value": "P"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "question": "When planning a trip do you make a schedule or just go with the flow?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Make a plan",
+              "value": "J"
+            },
+            {
+              "id": 2,
+              "answer": "Go with the flow",
+              "value": "P"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "question": "Do you prefer a chaotic or organized environment?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Organized",
+              "value": "J"
+            },
+            {
+              "id": 2,
+              "answer": "Chaotic",
+              "value": "P"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "question": "Do you tend to procrastinate?",
+          "answers": [
+            {
+              "id": 1,
+              "answer": "No",
+              "value": "J"
+            },
+            {
+              "id": 2,
+              "answer": "Yes",
+              "value": "P"
+            }
+          ]
+        }
+        
+      ]
 }
